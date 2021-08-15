@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="sistema.js"></script>
+ </head>
+<body>
+    <div id="formDiv">
+        <h1 class="alH1">Cadastro de usuário</h1>
+        <form action="login.html">
+                <p class="textos alIn">Nome <input type="text" name="nome" id="nome" placeholder="Insira seu nome" required></p>
+                <p class="textos alIn">E-mail <input type="email" name="email" id="email" placeholder="Insira seu e-mail" required></p>
+                <p class="textos">Usuário <input type="text" name="usuario" id="usuario" placeholder="Crie seu nome de usuário" required></p>
+                <p class="textos alIn">Senha <input type="password" name="senha" id="senha" placeholder="Crie sua senha" required></p>
+                <p class="textos">Projeto <input type="text" name="projeto" id="projeto" placeholder="Nome do projeto que participa" required></p>
+                <p class="textos btn"><input type="submit" value="Enviar" id="enviar" onclick="cadastrarUsuario()"></p>
+        </form>
+    </div>
+</body>
+</html>
